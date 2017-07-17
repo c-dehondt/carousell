@@ -1,0 +1,11 @@
+figure{
+  position: relative;
+}
+
+figcaption{
+  background-color: black;
+  color: white;
+  z-index: 1;
+  position: absolute;
+  bottom: 0%;
+}
