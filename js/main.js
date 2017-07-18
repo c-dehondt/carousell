@@ -7,6 +7,7 @@ function carousel() {
   slideImage.push(slideImage.shift());
   image.src=slideImage[0];
   infoImage.push(infoImage.shift());
-  texteImage.src=infoImage[0];
+  texteImage.innerHTML = infoImage[0];
 }
-setInterval (carousel,2000);
+setInterval (carousel, 2000);
+
